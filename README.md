@@ -34,7 +34,7 @@ int main()
 
     for (size_t i = 0; i < total; ++i)
     {
-        Sleep(25);  // milliseconds (Windows demo)
+        Sleep(25);  // milliseconds
         bar::step();
     }
 
@@ -51,7 +51,7 @@ Processing               [=====================>              ] 42%
 When finished, CmdBar prints 100% and a timing summary:
 
 ```dos
-Processing               [==================================================] 100%  ->  3 seconds
+Processing               [====================================] 100%  ->  3 seconds
 ```
 
 ### Tip
