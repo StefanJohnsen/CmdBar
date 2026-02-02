@@ -45,13 +45,13 @@ int main()
 Output while running:
 
 ```dos
-Processing            [=====================>              ] 42%
+Processing       [=============>              ] 42%
 ```
 
 When finished, CmdBar prints 100% and a timing summary:
 
 ```dos
-Processing            [====================================] 100%  ->  3 seconds
+Processing       [============================] 100%  ->  3 seconds
 ```
 
 ### Tip
