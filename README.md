@@ -54,7 +54,7 @@ When finished, CmdBar prints 100% and a timing summary:
 Processing       [============================] 100%  ->  3 seconds
 ```
 
-### Tip
+#### Tip
 CmdBar stores its progress state as a single global (header-only) instance.  
 This means `bar::step()` can be called from anywhere in your codebase (even deep inside your project), as long as you have called `bar::start(text, total)` up front and the total number of steps is known.
 
@@ -86,11 +86,11 @@ int main()
 }
 ```
 
-### Processing
+#### Processing
 
 <img width="999" height="186" alt="image" src="https://github.com/user-attachments/assets/e2136c9f-dbff-465a-8b21-430c5a5b54b6" />
 
-### Done
+#### Done
 <img width="993" height="122" alt="image" src="https://github.com/user-attachments/assets/b2d10a33-fa7c-422c-873b-0fe55650745e" />
 
 
