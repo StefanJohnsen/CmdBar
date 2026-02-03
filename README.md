@@ -12,7 +12,7 @@ CmdBar is a header-only utility that provides a lightweight progress bar for sma
 - Linux
 - macOS
 
-# Usage
+## Usage
 
 Copy `CmdBar.h` to your project and include the file.
 
@@ -21,7 +21,7 @@ The progress bar is controlled by three simple calls:
 - `bar::start(text, total)` - starts a new progress bar
 - `bar::step()` progress
 
-# Example code - simple
+### Example code - simple
 
 ```cpp
 #include "CmdBar.h"
@@ -60,7 +60,7 @@ This means `bar::step()` can be called from anywhere in your codebase (even deep
 
 Typical usage is to calculate or estimate `total` before starting, and then call `bar::step()` whenever one unit of work is completed.
 
-# Example code - multiple processes
+## Example code - multiple processes
 
 ```cpp
 #include "CmdBar.h"
