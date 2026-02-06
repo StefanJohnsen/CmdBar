@@ -30,6 +30,8 @@
   License: MIT
   Author: Stefan Falk Johnsen
   Copyright (c) 2025 FalconCoding
+
+  GitHub: https://github.com/StefanJohnsen/CmdBar
 ----------------------------------------------------------------*/
 
 namespace bar
