@@ -1,3 +1,4 @@
+![Banner](banner.jpg)
 # CmdBar - Simple Console Progress Bar
 
 CmdBar is a header-only utility that provides a lightweight progress bar for small console tools and utilities. It is designed to be easy to drop into any project where you want a clear visual indication of progress and a simple timing summary when the work is complete.
